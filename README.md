@@ -6,7 +6,6 @@ Mission Name: Mission Dryad
 
 1. MISSION
 1.1. Defining the Mission
-
 Due to the latest fires in Greece, both the micro-climate of many areas but also the quality of the soil have changed. Our team was deeply affected by this situation so we decided to create a CubeSat that could partly solve this problem. We suspect that the fires that happened in the summer of 2021 in Greece may have impacted the quality of the atmosphere and the soil of the burnt areas. This CubeSat is said to be able to take measurements of the temperature,the humidity, the altitude as well as the Ultraviolet radiation in the area being examined. 
 
 What’s more, we decided to name our mission “Mission Dryad”. According to Greek mythology, the Dryads were shy spirits that dwelt deep inside forests and were also the ones responsible for their protection from unjustified human actions or wildfires.This is what we want to be: The protectors of nature and wildlife of our Homeland.
@@ -15,11 +14,10 @@ What’s more, we decided to name our mission “Mission Dryad”. According to 
 When launched, the CubeSat Prototype will immediately start measuring the altitude, temperature, Ultraviolet radiation and various other particles contained in the atmosphere while also keeping track of the exact time and location this data was taken. All this data will be stored into an SD card, but it can also send its exact location and time back to the operator through a transceiver we installed. When the mission is over, we will simply pull it down and retrieve the full data. All this data will be then reviewed by experts to see in which location the atmosphere is suitable for reforestation.
 
 
-
-
 2. DESIGN PROCESS
 2.1. Approach
 Being given the chance to create a CubeSat made us think of and recognise a problem that jeopardises our country. After brainstorming and doing various meetings we came to the conclusion that the latest fires in Greece have created a new problem; Are the burnt areas ideal enough to be reforested? This is the problem we are hoping to partly solve by creating an innovative CubeSat prototype. Taking into consideration the sensors that FIRST provided us with, we came to choose which of them would be proved useful to our project, as well as which ones we would like to further add. Our team decided to create a CubeSat that consists of a GPS to be able to track the exact position and altitude of our CubeSat, a UV sensor to measure the sun’s radiation in an area, an atmospheric pressure and a humidity sensor to note down such measurements, as well as a thermometer to check if the atmosphere’s temperature is normal. 
+
 2.2. Prototyping
 At our research we did not find any CubeSats similar to our idea so we decided to prototype ours. While making a CubeSat from scratch, we undoubtedly faced various difficulties that we got through by working as a team, taking part in the STEM talk provided by FIRST and researching through the internet. After comparing the ideas our team brainstormed, we came to the result that helping nature at this moment would be the best decision to make rather than creating other projects. We had to test our limits and make the most of the knowledge and capabilities our team had, on programming, building and creating the CubeSat.
 
@@ -35,7 +33,6 @@ You can see the code of the CubeSat here!
 
 3. FINAL CUBESAT PROTOTYPE DESIGN
 3.1. 2021 CubeSat Prototype Kit Components
-
 For the implementation of our experiment a variety of specific sensors were used. Firstly the 2021 CubeSat Prototype Kit provided us with the UV sensor which is using a simple analog connection, MKR ENV Shield Rev 2 for the temperature, atm pressure  and humidity which is connected directly, Real Time Clock module which is using the I2C communication protocol. This concludes the components coming from the 2021 CubeSat prototype kit. 
 
 Each sensor had a data output and was programmed using the Arduino IDE software. All of the data was then stored in the SD card being hosted by the MKR ENV Shield Rev 2. This information was then being categorized by the software so that it would be more readable by the user and scientist analyzing them. 
@@ -49,7 +46,6 @@ Firstly, for the transmitting of our data, 2 transceivers were used. More specif
 
 Another component used on our CubeSat prototype is a GPS module. This component is useful for knowing the exact coordinates and altitude of our CubeSat. The exact module is the Adafruit GPS breakout board which is connected to the microcontroller using the UART communication protocol.
 
-
 3.3. Enclosure
 The enclosure of our CubeSat is mostly made from 3D printable PLA with 30% infill. Each side is printed separately and then we used M6 screws to be strongly connected together. The top and bottom of the CubeSat are being held with M4 screws. Overall the enclosure was tested in Fusion 360 simulations for stress tests in case of impact and dropped from 7 meters with no visible damage. The electronics are being held by 4 wires which run along the top to the bottom of the CubeSat. The electronics are being held with 4 M4 wires with threads which also help holding the 6 pieces that the CubeSat consists of. The holes are mainly for ventilation and usability for the sensors to have a brief understanding of the environment, but the ones for the screws have special cutouts for the head of the screw to be flash with the body.  
 
@@ -62,6 +58,8 @@ The circumstances we got to launch our CubeSat under were not ideal, so not ever
 Watch the launch of Mission Dryad here!
 Watch our team trying out the parachute with different weights here!
 Unfortunately, on the day of the launch event, it was really windy, making it impossible for the balloon to go high enough, since it was blown further away. Knowing that these days are breezy in Greece, we decided to provide ourselves with a drone in case not everything goes as planned. Luckily, one of our team’s members was able to bring one to the launch event, which under these circumstances could go higher up in the atmosphere. Therefore, our CubeSat was attached to the drone and driven up to a height of approximately 200 meters, in order to take measurements as accurately as possible. 
+
+
 5. RESULTS
 5.1. Results
 Although we faced some difficulties during the launch event that prevented us from deploying the CubeSat as high as we intended, our mission was partly successful. The sensors attached to the CubeSat took many measurements, transmitting all of the data back to our computer wirelessly. After comparing specialists’ data to ours, we concluded that the area where we launched our CubeSat was suitable for reforestation.
