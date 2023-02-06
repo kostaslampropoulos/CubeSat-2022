@@ -71,8 +71,11 @@ We did not manage to get permission to deploy the CubeSat from the Hellenic Mili
 Making a cubesat was not only a challenging but also an exciting experience! We had the chance to experiment on our project, and make the most of our skills, or even research to gain more knowledge. As for our future plans, we intend to create a simpler version of our cubesat prototype, so that students can easily recreate it low-cost, with materials that can easily be found. Making some alterations based on the needs somebody might have, would make our cubesat even more accessible to people as they could partly customise it according to their needs. If we had access to a real CubeSat and more financial resources we could also add more advanced sensors; not only to measure the atmosphere but also the soil’s properties too. Additionally, we could also add extra components to prevent wildfires from getting out of control. To conclude, our aim is to prevent wildfires from proliferating, and in case of a fire, we would be able to track whether the area being burnt is good enough to move on to reforestation.
 
 6. REFERENCES
+
 https://www.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf 
+
 https://csl.noaa.gov/factsheets/csdWildfiresFIREX.pdf
+
 https://forum.arduino.cc
 
 Apart from the links and resources we came across on the internet, we also communicated and elaborated on different subjects in regard to the CubeSat, with other teams from different competitions about micro satellites, like college teams from AUTH and more. 
